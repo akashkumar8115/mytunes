@@ -1,0 +1,241 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  overflow-x: hidden;
+}
+/* navbar */
+header {
+  background-color: #282828;
+  position: fixed;
+  width: 100vw;
+  margin-top: 0;
+}
+.mytune {
+  display: none;
+}
+nav .uls {
+  display: none;
+}
+.cross {
+  display: none;
+}
+nav .ulf {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+
+nav ul li {
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #282828;
+}
+
+nav ul li:hover {
+  border: 1px solid red;
+  background-color: red;
+  transition: all 1s;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* section 01 */
+.hero {
+  background-image: url("../img/showcase.jpeg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 3rem;
+  background-position: center;
+  color: white;
+  /* padding: 4rem 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero > div {
+  text-align: center;
+  margin: 0 3rem 0 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: auto;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  line-height: 180%;
+}
+
+/* section 02*/
+.music {
+  background-color: #252529;
+  text-align: center;
+  color: white;
+}
+.music > div {
+  margin: 0 3rem 0 3rem;
+  /* background-color: wheat; */
+}
+.music > div > h1 {
+  margin: auto;
+  padding-top: 2rem;
+}
+.music > div > h1 > img {
+  height: 25px;
+  width: auto;
+  margin: auto;
+  margin-top: 0.2rem;
+  color: white;
+}
+
+.music > div > p,
+.collection > div > p,
+.word > div > p {
+  font-size: 18px;
+  line-height: 180%;
+}
+#start,
+#read_more {
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(187, 4, 4);
+  color: white;
+}
+#read_more {
+  background-color: rgb(5, 5, 149);
+}
+#read_more:hover {
+  background-color: rgb(14, 14, 197);
+}
+
+#start:hover {
+  background-color: red;
+  transition: all 1s;
+}
+
+/* section 03 class collection */
+.collection {
+  background-color: #ffffff;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.collection > div {
+  margin: 0 3rem 0 3rem;
+  /* background-color: wheat; */
+}
+.collection > div > h1 {
+  margin: auto;
+  padding-top: 2rem;
+}
+/* .img01 {
+  max-width: 830px;
+  height: 50rem;
+  width: 50rem;
+} */
+
+.gift {
+  text-align: start;
+  display: flex;
+}
+.cardtext {
+  padding: 1.5rem;
+}
+.cardimg {
+  padding: 1rem;
+}
+.cardtext {
+  padding: 2rem;
+}
+.img03 {
+  height: 45vh;
+}
+.redeem {
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0px 0.5rem;
+}
+footer {
+  background-color: #282828;
+  color: white;
+  text-align: center;
+  /* padding: 1rem 0; */
+}
+footer > .p {
+  background-color: #515050;
+  padding: 1rem;
+  width: 100vw;
+  margin-top: 2rem;
+}
+footer > .p > p {
+}
+.word {
+  /* background-color: #ffffff; */
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-image: url("../img/section-bg.jpeg");
+  height: 70vh;
+  width: 100vw !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.word > div h1 {
+  font-size: 30px;
+}
+.word > div {
+  margin: 0 5rem 0 5rem;
+  align-items: center;
+  padding-top: 7%;
+}
+.footer_store {
+  margin: 0 4rem 0 4rem;
+}
+table {
+  margin: auto;
+  text-align: start;
+}
+th {
+  border-bottom: 1px solid rgb(188, 188, 188);
+  padding: 2rem;
+  padding-left: 0px !important;
+  margin: auto;
+  padding-right: 3rem;
+}
+th:nth-child(2) {
+  padding-right: 6rem;
+}
+th:nth-child(3) {
+  padding-right: 9rem;
+}
+th:nth-child(4) {
+  padding-right: 12rem;
+}
+tr {
+  margin-left: 1rem;
+}
+
+td {
+  padding: 0.3rem;
+  padding-right: 4rem;
+}
+td:hover {
+  cursor: pointer;
+  color: rgb(155, 155, 252);
+  transition: all 1s;
+}
