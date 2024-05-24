@@ -73,4 +73,6 @@
     cursor: pointer;
     padding:0.5rem 0px 0.5rem;
   }
+  .footer_store{
+    display:"none";
 }
