@@ -75,4 +75,5 @@
   }
   .footer_store{
     display:"none";
+    over-flow:"hidden";
 }
